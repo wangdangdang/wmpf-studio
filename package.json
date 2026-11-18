@@ -1,0 +1,21 @@
+{
+  "name": "wmpf-studio",
+  "version": "1.0.0",
+  "private": true,
+  "license": "GPL-2.0-only",
+  "description": "微信小程序调试抓包工具（WMPF Debugger Studio），基于 WMPFDebugger 二次开发",
+  "scripts": {
+    "studio": "tsx src/studio-main.ts",
+    "cli": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "protobufjs": "^7.5.4",
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "@types/ws": "^8.18.1",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.2"
+  }
+}

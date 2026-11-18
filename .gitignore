@@ -1,0 +1,11 @@
+node_modules/
+build/
+dist/
+release/
+chromium/
+chromium-profile/
+*.exe
+*.log
+app.cjs
+.DS_Store
+Thumbs.db
